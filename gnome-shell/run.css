@@ -1,0 +1,38 @@
+/* Run Dialog */
+.run-dialog-error-box {
+    padding-top: 15px;
+    spacing: 5px;
+}
+
+.run-dialog-entry {
+    font-size: 10.5pt;
+    width: 320px;
+    color: #fff;
+    font-weight: bold;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,244,1.0);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.run-dialog {
+    padding: 8px;
+    border-radius: 4px;
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0.2);
+    background-gradient-end: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,1.0);
+    box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.6);
+    color: #fff;
+    font-weight: bold;
+}
+
+.lightbox {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.flashspot {
+    background-color: yellow;
+}
+

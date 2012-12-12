@@ -1,0 +1,193 @@
+/* Scroll Bars */
+
+StScrollBar
+{
+  padding: 0px;
+}
+
+StScrollView StScrollBar
+{
+  min-width: 12px;
+  min-height: 16px;
+}
+
+
+StScrollBar StBin#trough {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 2px;
+}
+
+StScrollBar StButton#vhandle
+{
+    border-radius: 2px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+StScrollBar StButton#hhandle
+{
+    border-radius: 2px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+StScrollBar StButton#hhandle:hover,
+StScrollBar StButton#vhandle:hover
+{
+    background-color: rgba(255,255,255,0.7);
+}
+
+/* Check Boxes */
+
+.check-box ShellGenericContainer {
+    spacing: .8em;
+}
+
+.check-box StBin {
+    width: 24px;
+    height: 22px;
+    background-image: url("checkbox-off.png");
+}
+
+.check-box:focus StBin {
+    background-image: url("checkbox-off-focused.png");
+}
+
+.check-box:checked StBin {
+    background-image: url("checkbox.png");
+}
+
+.check-box:focus:checked StBin {
+    background-image: url("checkbox-focused.png");
+}
+
+StTooltip StLabel {
+    border-radius: 4px 4px 4px 4px;
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0.7);
+    background-gradient-end: rgba(255,255,255,0.7);
+    box-shadow: inset 0px 1px 1px rgba(255,255,255,0.3);
+    padding: 3px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* PopupMenu */
+
+.popup-menu-boxpointer {
+    -arrow-border-radius: 4px;
+    -arrow-background-color: rgba(255,255,255,0.1);
+    -arrow-border-width: 1px;
+    -arrow-border-color: rgba(255,255,255,0.1);
+    -arrow-base: 15px;
+    -arrow-rise: 7px;
+    padding: 2px 0px 0px 2px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.popup-menu {
+    min-width: 85px;
+    border-radius: 4px;
+    padding-top: 2px;
+    background-gradient-start: rgba(255,255,255,0.1);
+    background-gradient-end: rgba(255,255,255,0.1);
+    color: #ffffff;
+}
+
+.popup-sub-menu {
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0.1);
+    background-gradient-end: rgba(255,255,255,0.1);
+/*  box-shadow: inset 1px 8px 4px rgba(255,255,255,1.0);
+    border: 1px solid rgba(30,30,30,0.1);*/
+    border-radius: 7px;
+    color:#ffffff;
+    font-weight: normal;
+}
+
+/* The remaining popup-menu sizing is all done in ems, so that if you
+ * override .popup-menu.font-size, everything else will scale with it.
+ */
+.popup-menu-content {
+    padding: 0em 0em;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.popup-menu-item {
+    font-weight: normal;
+    padding: .3em 1.55em;
+    spacing: 1em;
+}
+
+.popup-menu-item:active {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: inset  0px 2px 2px rgba(0,0,0,0.6);
+    color: #050303;
+    font-weight: normal;
+    text-shadow: rgba(0,0,0,0.5) 0px 2px 2px;
+}
+
+.popup-image-menu-item {
+}
+
+.popup-alternating-menu-item:alternate {
+    color: #050303;
+    font-weight: normal;
+}
+
+.popup-separator-menu-item {
+    -gradient-height: 1px;
+    -gradient-start: rgba(255,255,255,0.0);
+    -gradient-end: rgba(255,255,255,0.0);
+    -margin-horizontal: 1.5em;
+    height: 1em;
+}
+
+.popup-slider-menu-item {
+    height: 1em;
+    min-width: 15em;
+    -slider-height: 0.2em;
+    -slider-background-color: #ffffff;
+    -slider-border-color: #ffffff;
+    -slider-active-background-color: #ffffff;
+    -slider-active-border-color: #fff;
+    -slider-border-width: 1px;
+    -slider-handle-radius: 0.5em;
+}
+
+.popup-device-menu-item {
+    spacing: .5em;
+}
+
+.popup-menu-icon {
+    icon-size: 1.14em;
+}
+
+/* Switches (to be used in menus) */
+.toggle-switch {
+    width: 51px;
+    height: 16px;
+}
+
+.toggle-switch-us {
+    background-image: url("img/off.png");
+}
+.toggle-switch-us:checked {
+    background-image: url("img/on.png");
+}
+
+.toggle-switch-intl {
+    background-image: url("img/off.png");
+}
+.toggle-switch-intl:checked {
+    background-image: url("img/on.png");
+}
+
+.nm-menu-item-icons {
+    spacing: .2em;
+}

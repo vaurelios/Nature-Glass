@@ -1,0 +1,40 @@
+12/12/12
+-[Message-Tray] fixed width and height
+
+20/10/2011
+
+-[Message Area] Fixed the text and padding.
+-[GNOME Shell] Slowly getting rid of the bold text and fixing sizes.
+
+
+01/11/2011
+-[Apps] Fixed padding problem.
+-[Apps] Added transition.
+-[Contacts] Some tweaks.
+-[Calendar] More tweaks.
+-[Message Area] Refreshed the look!
+-[Keyboard] Fixed!
+- Tweaks and fixes everywhere!
+-[ws-switcher] More contrast, smaller size.
+-[Extensions] Styled weather and Journal. More to come!
+-[Overview] Some tweaks to the tabs.
+-[Overview] A new close button!
+
+08/12/2011
+
+-[Calendar] Fixed minor issues.
+-[Popup menu] Fixed a visibility issue.
+-[Modal] Minor fixes.
+-Cleaned the img/ folder.
+-[Extensions] Styled 'Hamster' extension.
+-[Message Area] Fixed the chat bugs.
+-[Popup Menu] Fixed the sub-menu bugs.
+-[Panel] Better text visibility.
+-[Extensions] Styled 'shell-message-notifier' extension!
+-[Extensions] Style the Dock extension.
+-[App switcher] Fixed a minor annoyance.
+
+08/02/2012:
+
+-[Apps] Fixed a padding problem in the App-filter.
+-[Panel] Added a transition to make switching the theme to 'Nord' more enjoyable. *wink* *wink*

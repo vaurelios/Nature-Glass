@@ -1,0 +1,67 @@
+stage {
+    font-family: "Droid Sans", cantarell, sans-serif;
+}
+
+.shell-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.shell-link:hover {
+    color: #ffffff;
+}
+
+.label-shadow {
+    color: rgba(0,0,0,0);
+}
+
+StScrollBar {
+  padding: 2px 2px 2px 15px;
+}
+
+StScrollView.vfade {
+  -st-vfade-offset: 60px;
+}
+
+StScrollView StScrollBar {
+	  min-width: 8px;
+  min-height: 20px;
+}
+
+StScrollBar StBin#trough {
+    background-gradient-start: rgba(255,255,255,0.2);
+    background-gradient-end: rgba(255,255,255,0.0);
+    background-gradient-direction: vertical;
+    border-radius: 5px;
+}
+
+StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
+    background-gradient-start: rgba(255,255,255,0.5);
+    background-gradient-end: rgba(255,255,255,0.65);
+    background-gradient-direction: vertical;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transition-duration: 200;
+}
+
+StScrollBar StButton#hhandle:hover,
+StScrollBar StButton#vhandle:hover{
+    background-gradient-start: rgba(255,255,255,0.4);
+    background-gradient-end: rgba(255,255,255,0.25);
+    background-gradient-direction: vertical;
+    border: 1px solid rgba(0,0,0,0.4);
+/*    box-shadow: 0px 1px 3px 2px rgba(0,0,0,0.5);*/
+    transition-duration: 200;
+}
+
+StTooltip StLabel {
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow:  inset 0px -1px 0px 0px rgba(255,255,255,0.9);
+    color: rgba(0,0,0,0.8);
+    padding: 4px;
+    font-size: 8.5pt;
+    font-weight: bold;
+    text-align: center;
+}

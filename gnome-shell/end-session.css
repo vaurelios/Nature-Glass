@@ -1,0 +1,96 @@
+/* End Session Dialog */
+.end-session-dialog {
+    spacing: 100px;
+    background-gradient start: rgba(255,255,255,0.1);
+    background-gradient end: rgba(255,255,255,0.1);
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.end-session-dialog-subject {
+    font-size: 14pt;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 17px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.end-session-dialog-subject:rtl {
+    padding-left: 0px;
+    padding-right: 17px;
+}
+
+.end-session-dialog-description {
+    font-size: 8pt;
+    color: #ffffff;
+    padding-left: 17px;
+    width: 28em;
+}
+
+.end-session-dialog-description:rtl {
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.end-session-dialog-logout-icon {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 48px;
+    height: 48px;
+}
+
+.end-session-dialog-shutdown-icon {
+    width: 48px;
+    height: 48px;
+    color: #ffffff;
+}
+
+.end-session-dialog-app-list {
+    font-size: 10pt;
+    max-height: 200px;
+    padding-top: 42px;
+    padding-left: 49px;
+    padding-right: 32px;
+   
+}
+
+.end-session-dialog-app-list:rtl {
+    padding-right: 49px;
+    padding-left: 32px;
+}
+
+.end-session-dialog-app-list-item {
+    color: #fff;
+}
+
+.end-session-dialog-app-list-item:hover {
+    color: white;
+}
+
+.end-session-dialog-app-list-item:ltr {
+    padding-right: 1em;
+}
+
+.end-session-dialog-app-list-item:rtl {
+    padding-left: 1em;
+}
+
+.end-session-dialog-app-list-item-icon:ltr {
+    padding-right: 17px;
+}
+
+.end-session-dialog-app-list-item-icon:rtl {
+    padding-left: 17px;
+}
+
+.end-session-dialog-app-list-item-name {
+    font-size: 10pt;
+}
+
+.end-session-dialog-app-list-item-description {
+    font-size: 8pt;
+    color: #ffffff;
+}
